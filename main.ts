@@ -10,6 +10,7 @@ radio.onReceivedNumber(function (receivedNumber) {
         music.playTone(262, music.beat(BeatFraction.Whole))
         basic.pause(200)
         basic.showString("Go")
+        music.playTone(349, music.beat(BeatFraction.Double))
     }
 })
 input.onButtonPressed(Button.A, function () {
